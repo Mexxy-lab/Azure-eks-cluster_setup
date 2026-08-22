@@ -45,7 +45,7 @@ module "aks_node_group" {
 
   subnet_id = module.vnet.private_subnet_id
 
-  node_pool_name    = var.node_pool_name
+  node_pool_name     = var.node_pool_name
   vm_size            = var.worker_vm_size
   node_count         = var.worker_node_count
   kubernetes_version = var.kubernetes_version
