@@ -1,6 +1,6 @@
-subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+subscription_id = "007f175d-86d2-4836-9a1f-f752ee43f8aa"
 
-tenant_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+tenant_id = "c5f78d0a-ecd1-4ca9-8d5e-9b2f5ffbfb59"
 
 location = "East US"
 
