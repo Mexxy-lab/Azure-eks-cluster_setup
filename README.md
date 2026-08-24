@@ -1013,3 +1013,17 @@ Terraform
 └── AKS Node Group
     └── Worker Node Pool
 ```
+
+## Checking actual quota
+
+```bash
+az vm list-usage \
+  --location eastus \
+  --query "[?contains(name.value, 'standardDSv5Family')]" \
+  -o table
+
+az vm list-usage \
+  --location eastus \
+  -o table
+
+```

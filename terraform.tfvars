@@ -28,14 +28,14 @@ private_subnet_cidr = "10.0.2.0/24"
 
 aks_cluster_name = "pumej-aks"
 
-kubernetes_version = "1.33"
+kubernetes_version = "1.36.3"
 
-system_node_count = 2
+system_node_count = 1
 
-system_vm_size = "Standard_D2s_v5"
+system_vm_size = "Standard_B2s"
 
 node_pool_name = "worker"
 
-worker_vm_size = "Standard_D2s_v5"
+worker_vm_size = "Standard_B2s"
 
 worker_node_count = 2

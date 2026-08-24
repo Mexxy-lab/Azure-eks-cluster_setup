@@ -82,19 +82,19 @@ variable "aks_cluster_name" {
 variable "kubernetes_version" {
   description = "Kubernetes version"
   type        = string
-  default     = "1.33"
+  default     = "1.36"
 }
 
 variable "system_node_count" {
   description = "Number of AKS system nodes"
   type        = number
-  default     = 2
+  default     = 1
 }
 
 variable "system_vm_size" {
   description = "VM size for AKS system nodes"
   type        = string
-  default     = "Standard_D2s_v5"
+  default     = "Standard_B2s"
 }
 
 variable "node_pool_name" {
@@ -106,11 +106,11 @@ variable "node_pool_name" {
 variable "worker_vm_size" {
   description = "VM size for worker nodes"
   type        = string
-  default     = "Standard_D2s_v5"
+  default     = "Standard_B2s"
 }
 
 variable "worker_node_count" {
   description = "Number of worker nodes"
   type        = number
-  default     = 2
+  default     = 1
 }
