@@ -960,6 +960,8 @@ az aks get-credentials \
   --name pumej-aks \
   --overwrite-existing
 
+kubectl config use-context kubernetes-admin@kubernetes
+
 kubectl config current-context
 
 kubectl get nodes
